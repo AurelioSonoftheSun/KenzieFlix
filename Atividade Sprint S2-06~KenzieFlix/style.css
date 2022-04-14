@@ -1,0 +1,146 @@
+html, body, header, div, main, ul, li, img{
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;     
+text-decoration: none;
+box-sizing: border-box;
+}
+
+body{
+  background-color:#121214;
+  display:flex;
+  flex-direction: column;
+  border-radius: 12px;
+  width: 100%;
+  height: 100vh;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin-top: 50px;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{
+    background: url("./imagem/logo1.png");
+    width: 229px;
+    height: 68px;
+
+}
+
+.quemestaassistindo{
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  margin-top: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.listadeusuarios{
+  margin-top: 61px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+
+}
+
+.listadeusuarios li{
+   width: 160px;
+  height: 190px;
+
+}
+
+.listadeusuarios li:hover img{
+  color:aqua;
+  border-radius: 4px;
+  transform: scale(1.15);
+
+}
+
+.listadeusuarios li:hover p{
+  color:aqua;
+
+}
+
+
+.listadeusuarios li figure{
+  width: 160px;
+  display: flex;
+  justify-content:space-between;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+
+}
+
+.listadeusuarios figure img{
+  width: 160px;
+  height: 160px; 
+
+}
+
+.listadeusuarios li p{
+  
+  text-align: center;
+  
+}
+
+button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 206px;
+  height: 50px;
+  border: 1.5px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color:#121214;
+  color: #FFFFFF;
+  margin-top: 136px;
+    
+}
+
+#idgerenciarperfis p{
+font-family: "IBM Plex Sans";
+font-size: 16px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+button:hover{
+color:#121214;
+background-color: #FFFFFF;
+border-color:aqua;
+
+}
